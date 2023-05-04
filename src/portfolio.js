@@ -20,10 +20,10 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Deepesh Sharma",
+  title: "Hi all, I'm Deepesh",
   subTitle: emoji(
-    "A passionate data scientist 🚀 having 3 years experience of implementing machine learning models and passionate about exploring and implementing new data-driven techniques that optimize performance and drive growth"
+    "A passionate data scientist 🚀 having 3 years of experience creating machine learning models and passionate about exploring and implementing new data-driven techniques that optimize performance and drive growth"
   ),
   resumeLink:
     "https://docs.google.com/document/d/1Vv66yUlEQJro0DxvSq0sd3HAffB1PQAy/edit?usp=sharing&ouid=114954950735929072138&rtpof=true&sd=true", // Set to empty to hide the button
@@ -78,14 +78,14 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "sass",
       fontAwesomeClassname: "fab fa-sass"
     },
-    {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
-    },
-    {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
-    },
+    // {
+    //   skillName: "JavaScript",
+    //   fontAwesomeClassname: "fab fa-js"
+    // },
+    // {
+    //   skillName: "reactjs",
+    //   fontAwesomeClassname: "fab fa-react"
+    // },
     {
       skillName: "nodejs",
       fontAwesomeClassname: "fab fa-node"
@@ -94,10 +94,10 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "swift",
       fontAwesomeClassname: "fab fa-swift"
     },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
+    // {
+    //   skillName: "npm",
+    //   fontAwesomeClassname: "fab fa-npm"
+    // },
     {
       skillName: "sql-database",
       fontAwesomeClassname: "fas fa-database"
@@ -128,10 +128,10 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
+      schoolName: "Kiit University",
+      logo: require("./assets/images/kiit_logo_jpeg.png"),
+      subHeader: "B.tech in Information technology",
+      duration: "June 2016 - March 2020",
       desc: "Participated in the research of XXX and published 3 papers.",
       descBullets: [
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
@@ -345,7 +345,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -372,7 +372,7 @@ const contactInfo = {
 // Twitter Section
 
 const twitterDetails = {
-  userName: "twitter", //Replace "twitter" with your twitter username without @
+  userName: "deepesh463", //Replace "twitter" with your twitter username without @
   display: true // Set true to display this section, defaults to false
 };
 
