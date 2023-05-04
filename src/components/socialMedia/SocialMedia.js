@@ -56,7 +56,7 @@ export default function socialMedia() {
         </a>
       ) : null}
 
-      {socialMediaLinks.facebook ? (
+      {/* {socialMediaLinks.facebook ? (
         <a
           href={socialMediaLinks.facebook}
           className="icon-button facebook"
@@ -66,9 +66,9 @@ export default function socialMedia() {
           <i className="fab fa-facebook-f"></i>
           <span></span>
         </a>
-      ) : null}
+      ) : null} */}
 
-      {socialMediaLinks.instagram ? (
+      {/* {socialMediaLinks.instagram ? (
         <a
           href={socialMediaLinks.instagram}
           className="icon-button instagram"
@@ -78,7 +78,7 @@ export default function socialMedia() {
           <i className="fab fa-instagram"></i>
           <span></span>
         </a>
-      ) : null}
+      ) : null} */}
 
       {socialMediaLinks.twitter ? (
         <a
@@ -104,7 +104,7 @@ export default function socialMedia() {
         </a>
       ) : null}
 
-      {socialMediaLinks.stackoverflow ? (
+      {/* {socialMediaLinks.stackoverflow ? (
         <a
           href={socialMediaLinks.stackoverflow}
           className="icon-button stack-overflow"
@@ -114,7 +114,7 @@ export default function socialMedia() {
           <i className="fab fa-stack-overflow"></i>
           <span></span>
         </a>
-      ) : null}
+      ) : null} */}
 
       {socialMediaLinks.kaggle ? (
         <a
